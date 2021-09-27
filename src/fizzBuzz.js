@@ -1,2 +1,5 @@
-class Fizzbuzz {}
-
+class Fizzbuzz {
+  isDivisibleByThree(number) { 
+  return true; 
+  }
+}
