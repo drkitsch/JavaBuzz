@@ -13,15 +13,15 @@ class Fizzbuzz {
     return this._isDivisibleBy(number, 5);
   }
   says(number) {
+    if (this.isDivisibleByFifteen(number)) {
+      return "Fizzbuzz";
+     }
     if(this.isDivisibleByThree(number)) {
       return "Fizz";
     }
     if (this.isDivisibleByFive(number)) {
       return "Buzz";
     }
-   if (this.isDivisibleByFifteen(number)) {
-    return "Fizzbuzz";
-   }
    return number;
   }
 }
